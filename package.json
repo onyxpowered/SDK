@@ -1,0 +1,18 @@
+{
+  "name": "sdk",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "SDK -- the full Ship dev kit. Designed & Built By onyxpowered.",
+  "bin": {
+    "sdk": "./Platform/Works/Systemworks/Subworks/CLI.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "test": "node --test --test-force-exit \"Platform/**/*.test.js\" \"Scripts/*.test.js\"",
+    "sync": "node Scripts/SyncFromShip.js",
+    "preview": "node Scripts/Preview.js"
+  }
+}
